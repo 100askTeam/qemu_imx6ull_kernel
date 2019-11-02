@@ -88,6 +88,7 @@
 			gpios = <&gpio1 4 GPIO_ACTIVE_LOW>;
 			default-state = "on";
 			linux,default-trigger = "cpu0";
+            status="disabled";
 		};
 	};
 
